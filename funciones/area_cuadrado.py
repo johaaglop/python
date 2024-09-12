@@ -11,4 +11,4 @@ def area_cu (base, altura):
 
 base = (float(input("Ingrese la base del cuadrado: ")))
 altura = (float(input("Ingrese la altura del cuadrado: ")))
-print(f"La base {base}, por la altura {altura}, del cuadrado entre 2, es igual al área del cuadrado: {area_cu(base, altura)}")
+print(f"La base {base}, \npor la altura {altura}, \ndel cuadrado entre 2, \nes igual al área del cuadrado: {area_cu(base, altura)}")
