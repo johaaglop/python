@@ -1,0 +1,24 @@
+Index: funciones/area_cuadrado.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/funciones/area_cuadrado.py b/funciones/area_cuadrado.py
+--- a/funciones/area_cuadrado.py	(revision f98ac6b34d7622023866467b300ca59fa86173f8)
++++ b/funciones/area_cuadrado.py	(revision 6c46f17bfec99634b0557ee2fa6afaf879c1e3d6)
+@@ -1,0 +1,14 @@
++#área de un cuadrado
++def area_cu (base, altura):
++    """
++    Calcula el área de un cuadrado
++    :arg
++    :param base(float): La base del cuadrado
++    :param altura(float): La altura del cuadrado
++    :return: float: el área del cuadrado
++    """
++    return base * altura / 2
++
++base = (float(input("Ingrese la base del cuadrado: ")))
++altura = (float(input("Ingrese la altura del cuadrado: ")))
++print(f"La base {base}, por la altura {altura}, del cuadrado entre 2, es igual al área del cuadrado: {area_cu(base, altura)}")
+\ No newline at end of file
