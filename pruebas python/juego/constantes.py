@@ -1,7 +1,0 @@
-#medidas de la ventana de juego
-ANCHO_VEN = 800
-ALTO_VEN = 600
-#Personaje
-ALTO_PERSONAJE = 20
-ANCHO_PERSONAJE = 20
-COLOR_PERSONAJE = (219, 112, 147)
